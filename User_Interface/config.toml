@@ -1,0 +1,5 @@
+[global]
+
+# Disable the widget state duplication warning
+
+disableWidgetStateDuplicationWarning = true
