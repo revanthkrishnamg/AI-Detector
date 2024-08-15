@@ -1,0 +1,13 @@
+streamlit
+sqlalchemy
+joblib
+nltk
+gensim
+vaderSentiment
+transformers
+torch
+numpy
+textstat
+pandas
+scikit-learn
+xgboost

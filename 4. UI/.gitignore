@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor configurations
+.vscode/
+.idea/
+
+# Ignore logs and temp files
+*.log
+*.tmp
+
+# Ignore large files (e.g., models and binaries) that can be rebuilt
+*.pt
+*.pkl
+*.lib
+*.dll
