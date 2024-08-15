@@ -38,7 +38,14 @@ def hash_password(password):
 # Loading the model using joblib
 @st.cache_resource
 def load_model():
-    model = joblib.load('D:\\AI_Detector_New\\human_AI_classifier_model.joblib')
+    # Get the directory where the current script is located
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    
+    # Construct the full path to the model file
+    model_path = os.path.join(dir_path, 'human_AI_classifier_model.joblib')
+    
+    # Load the model
+    model = joblib.load(model_path)
     return model
 
 model = load_model()
