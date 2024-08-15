@@ -115,9 +115,10 @@ def ai_text_detector():
     st.title("🔍 AI Text Detector")
 
     st.write(
-        """
-        Welcome to the AI Text Detector! Enter text below to classify it as AI-written or Human-written.
-        """
+    """
+    Welcome to the AI Text Detector! Enter text below to classify it as AI-written or Human-written.
+    \n\n*Input must be more than 200 characters for more accurate results.*
+    """
     )
 
     # Sidebar for options
@@ -186,6 +187,9 @@ def ai_text_detector():
     if st.sidebar.button("Logout", on_click=logout):
         pass  # The on_click will handle the logout action
 
+st.markdown(
+    "***Disclaimer:*** This model was trained to provide feedback for GPT-3.5 and lower models and may not accurately represent GPT-4 outputs."
+)
 
 # Main navigation
 if st.session_state.authenticated:
