@@ -101,3 +101,7 @@ To optimize the models, hyperparameter tuning was conducted using techniques lik
 - **Deployment Strategy**: Outline potential strategies for deploying the model into a production environment, where it can be used to automatically screen and verify text content for authenticity.
 
 By continually refining our models and incorporating more diverse data, we aim to improve the robustness and accuracy of our AI-detector, ensuring it remains effective against evolving AI text generation technologies.
+
+### Team 
+- Revanth
+- Shashank
